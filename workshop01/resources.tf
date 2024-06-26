@@ -66,7 +66,7 @@ resource "local_file" "nginx-conf" {
 }
 
 resource "digitalocean_droplet" "nginx" {
-    name = "darryl-nginx"
+    name = "mohan-nginx"
     image = var.do_image
     region = var.do_region
     size = var.do_size
